@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "next": "^2.4.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
 }
