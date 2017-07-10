@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import MainLayout from '../layouts/MainLayout'
-export default ()=>(
+export default (props)=>(
   <div>
     <MainLayout>
       <div className="jumbo">
-        Esta es la pagina About
+        Esta es la pagina About {props.url.query.titulo}
 
         <style jsx>
           {

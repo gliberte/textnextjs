@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.15.3",
+    "isomorphic-unfetch": "^2.0.0",
+    "mongoose": "^4.11.1",
     "next": "^2.4.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"

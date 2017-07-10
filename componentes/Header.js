@@ -5,7 +5,7 @@ export default ()=>(
       <div className="brand">The Company</div>
       <ul>
         <li><Link href="/"><a>Home</a></Link></li>
-        <li><Link href="/about"><a>About</a></Link></li>
+        <li><Link as="/about/bomberos" href="/about?titulo=bomberos"><a>About</a></Link></li>
       </ul>
 
     </div>
